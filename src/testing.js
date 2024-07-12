@@ -1,5 +1,5 @@
-import { createUser, getUsers, createBlog, getBlogs } from './queries.js';
-import pool from './db.js';
+const { createUser, getUsers, createBlog, getBlogs } = require('./queries.js');
+const pool = require('./db.js');
 
 const run = async () => {
     try {
